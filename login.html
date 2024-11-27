@@ -1,0 +1,76 @@
+<html>
+<head>
+<style>
+    body{
+        background-image: url('https://store-images.s-microsoft.com/image/apps.4488.9007199266247079.8ae98388-e077-492d-871d-48b1e5bd283a.a5a2d9a6-581d-45f4-abed-a3f823e0924f?mode=scale&q=90&h=1080&w=1920');
+        background-size: cover;
+    }
+    input{
+        border-radius: 5px;
+        border-color:black;
+    background-color:white;
+    text-size-adjust:auto;
+    padding-bottom: 20px;
+    width:200px;
+    height: 50px;
+    text-align: center;
+    padding-top:5px;
+    }
+    div{
+        position: absolute;
+        top:0;
+        right: 0;
+    }
+    h3{
+        color:gold;
+    }
+    h2{
+        margin-top:100px;
+        text-align:center;
+        color:gold;
+        font-family: inherit;
+        font-size:xx-large;
+    }
+    label{
+        display: block;
+        font-size:30px;
+        color:gold;
+        margin-left:10px;
+    }
+    table{
+       border-radius: 5%;
+        border:2px solid white;
+        background-color: black;
+    }
+    .s{
+         margin-left:160px;
+         color:black;
+         font-size:x-large;
+         background-color:gold;
+         width:120px;
+    }
+    .s:hover{
+        color:goldenrod;
+    }
+    .a{
+        color:goldenrod;
+    }
+</style>
+</head>
+<body>
+    <img src="buried-treasure.gif">
+<form action="verify.php" method="post" >
+    <div style="float:right;">
+    <h2>Login Here</h2>
+<table  cellspacing="0" cellpadding="10">
+          <tr><td><label>Email Address:</label></td>
+          <td><input type="text" name="eid" placeholder="Enter your email" required></td></tr>
+          <tr><td><label>Password:</label></td>
+          <td><input type="password" name="pwd" placeholder="Enter your password" required></td></tr>
+          <tr><td><input class="s" type="submit" name="submit" value="submit"></td></tr>
+          <tr><td><h3>Not Registered?</h3><a href="form.html" target="_blank" class="a"><h4>signup</h4></a></td></tr>
+</table>
+</div>
+</form>
+</body>
+</html>
